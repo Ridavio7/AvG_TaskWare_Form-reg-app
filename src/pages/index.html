@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заявки</title>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="../images/avg.svg" alt="avg_logo">
+        <h2 class="title">Заполните форму заявки</h2>
+        <form action="">
+            <div class="input__type-text__wrapper">
+                <label class="label" for="name">Название объекта</label>
+                <input class="input__type-text" type="text" id="name">
+            </div>
+            <div class="input__type-text__wrapper">
+                <label class="label" for="address">Адрес объекта</label>
+                <input class="input__type-text" type="text" id="address">
+            </div>
+            <div class="input__type-checkbox__wrapper">
+                <input class="input__type-checkbox" type="checkbox" id="controller">
+                <label class="label" for="controller">Есть пультовой номер</label>
+            </div>
+            <div class="input__type-text__wrapper input__type-text__wrapper_hidden">
+                <label class="label" for="controller_num">Пультовой номер</label>
+                <input class="input__type-text" type="text" id="controller_num">
+            </div>
+            <div class="input__type-text__wrapper">
+                <label class="label" for="phone">Контактный телефона</label>
+                <input class="input__type-text" type="text" id="phone">
+            </div>
+            <div class="input__type-text__wrapper">
+                <label class="label" for="date">Желаемое время приезда</label>
+                <input class="input__type-text" type="date" id="date">
+                <input class="input__type-text" type="time" id="time">
+            </div>
+            <div class="input__type-text__wrapper">
+                <label class="label" for="description">Описание неисправности</label>
+                <textarea class="input__type-text" id="description"></textarea>
+            </div>
+            <div>
+                <h3 class="title">Выберите тип системы</h3>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="ops">
+                    <label class="label" for="ops">ОПС</label>
+                </div>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="individual_intercom">
+                    <label class="label" for="individual_intercom">Инд. домофон</label>
+                </div>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="apartment_intercom">
+                    <label class="label" for="apartment_intercom">Многокв. домофон</label>
+                </div>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="skd">
+                    <label class="label" for="skd">СКД</label>
+                </div>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="theft_protection">
+                    <label class="label" for="theft_protection">Защита от краж</label>
+                </div>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="automation">
+                    <label class="label" for="automation">Автоматика</label>
+                </div>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="auto">
+                    <label class="label" for="auto">Авто</label>
+                </div>
+                <div class="input__type-checkbox__wrapper">
+                    <input class="input__type-checkbox" type="checkbox" id="video">
+                    <label class="label" for="video">Видео</label>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
