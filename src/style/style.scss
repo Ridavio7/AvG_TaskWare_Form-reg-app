@@ -87,3 +87,22 @@ html, body{
         align-items: center;
     }
 }
+
+.input__type-submit{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 250px;
+    height: 45px;
+    background: #0F59B1;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+
+    &:hover{
+        background: #146edc;
+    }
+}
